@@ -8,7 +8,7 @@ steps:
       - --region=europe-west3
       - --source=.
       - --trigger-http
-      - --runtime=python39
+      - --runtime=python311
       - --memory=128MB
       - --timeout=90
       - --min-instances=0
@@ -16,4 +16,4 @@ steps:
       - --security-level=secure-always
       - --ingress-settings=all
       - --no-allow-unauthenticated
-      - --service-account=hello-world-function-sa@for-developers-343319.iam.gserviceaccount.com
+      - --service-account=telegram-bots-sa@telegram-bots-375221.iam.gserviceaccount.com
